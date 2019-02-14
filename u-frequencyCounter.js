@@ -12,7 +12,7 @@ const same0n2 = (arr1, arr2) => {
         return false;
     }
 
-    for(let i= 0; i<=arr1.length; i++) {
+    for(let i= 0; i<arr1.length; i++) {
         let index = arr2.indexOf(arr1[i]**2);
         if(index === -1) {
             return false
