@@ -31,7 +31,8 @@ const same0n = (arr1, arr2) => {
         return false;
     }
 
-    frequencyCounter1 = frequencyCounter2 = {}
+    frequencyCounter1 = {};
+    frequencyCounter2 = {};
     
     for(let val of arr1){ //n iterations
         frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1
