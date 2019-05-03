@@ -1,3 +1,5 @@
+//Given an array of sorted values find uniquenumber count
+
 var countValues = function(arr) {
     var i = 0, j=i+1;
     while(j<=arr.length-1) {
