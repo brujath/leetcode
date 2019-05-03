@@ -2,6 +2,7 @@
 
 var countValues = function(arr) {
     var i = 0, j=i+1;
+    if(arr.length===0) return 0;
     while(j<=arr.length-1) {
         if(arr[i]!==arr[j]) {
             i++;
@@ -10,8 +11,8 @@ var countValues = function(arr) {
             j++;
         }
     }
-
-    console.log( arr[i]);
+    
+    return i+1;
 };
 
 countValues([1,2,2,2,3,4,4,4,4,5,6]);
